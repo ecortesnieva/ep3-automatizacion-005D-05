@@ -1,3 +1,0 @@
-[1m[31m
-Could not find device 'CSR1kv' in Testbed file[0m[39m
-
