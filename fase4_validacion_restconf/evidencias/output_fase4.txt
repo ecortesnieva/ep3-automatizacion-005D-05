@@ -1,0 +1,42 @@
+=== RESTCONF VALIDATION LOG ===
+Alumno: Emilio Cortes
+Fecha: Fri 26 Jun 2026 07:13:44 PM UTC
+===============================
+{
+    "Cisco-IOS-XE-native:interface": {
+        "GigabitEthernet": [
+            {
+                "name": "1",
+                "ip": {
+                    "address": {
+                        "primary": {
+                            "address": "192.168.56.254",
+                            "mask": "255.255.255.0"
+                        }
+                    }
+                },
+                "mop": {
+                    "enabled": false,
+                    "sysid": false
+                },
+                "Cisco-IOS-XE-ethernet:negotiation": {
+                    "auto": true
+                }
+            }
+        ],
+        "Loopback": [
+            {
+                "name": 10,
+                "description": "Enlace-WAN-Antofagasta",
+                "ip": {
+                    "address": {
+                        "primary": {
+                            "address": "10.5.5.1",
+                            "mask": "255.255.255.0"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
