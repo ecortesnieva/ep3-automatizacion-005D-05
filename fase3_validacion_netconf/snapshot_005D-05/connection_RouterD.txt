@@ -1,0 +1,10 @@
+[2026-06-26 18:26:55,222] +++ RouterD logfile snapshot_005D-05/connection_RouterD.txt +++
+[2026-06-26 18:26:55,222] +++ Unicon plugin iosxe +++
+
+[2026-06-26 18:26:55,717] +++ connection to spawn: ssh -l cisco 192.168.56.254 -p 22, id: 140112848211440 +++
+[2026-06-26 18:26:55,718] connection to RouterD
+cisco@192.168.56.254's password: 
+ ACCESO RESTRINGIDO - ENERSOL 
+
+
+RTR-ENERSOL#

@@ -1,0 +1,17 @@
+devices:
+  RTR-ENERSOL:
+    os: iosxe
+    type: router
+    credentials:
+      default:
+        username: cisco
+        password: cisco123!
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: ssh
+        ip: 192.168.56.254
+        port: 22
+        arguments:
+          ssh_options: -o KexAlgorithms=diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o StrictHostKeyChecking=no

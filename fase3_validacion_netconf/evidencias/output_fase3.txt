@@ -1,0 +1,17 @@
+0it [00:00, ?it/s]1it [00:00, 380.26it/s]+==============================================================================+
+| Genie Diff Summary between directories ./baseline_renombrado/ and            |
+| ./snapshot_005D-05/                                                          |
++==============================================================================+
+|  File: interface_iosxe_RTR-ENERSOL_ops.txt                                   |
+|   - Diff can be found at evidencias/diff_005D-05/diff_interface_iosxe_RTR-   |
+| ENERSOL_ops.txt                                                              |
+|------------------------------------------------------------------------------|
+|  File: routing_iosxe_RTR-ENERSOL_ops.txt                                     |
+|   - Diff can be found at evidencias/diff_005D-05/diff_routing_iosxe_RTR-     |
+| ENERSOL_ops.txt                                                              |
+|------------------------------------------------------------------------------|
+|  File: platform_iosxe_RTR-ENERSOL_ops.txt                                    |
+|   - Identical                                                                |
+|------------------------------------------------------------------------------|
+
+
