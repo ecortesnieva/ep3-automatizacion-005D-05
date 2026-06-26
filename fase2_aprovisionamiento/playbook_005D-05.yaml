@@ -1,0 +1,21 @@
+---
+- name: Aprovisionamiento Corporativo de Infraestructura - Energia Solar Austral SA
+  hosts: routers
+  gather_facts: false
+
+  vars_files:
+    - ../vars/vars_005D-05.yaml
+
+  tasks:
+    - name: "Ejecutar Aprovisionamiento Completo en bloque CLI"
+      ios_config:
+        lines:
+          - hostname {{ cliente.hostname }}
+          - interface Loopback{{ router.loopback_id }}
+          - description Loopback Alumno {{ alumno.codigo }}
+          - ip address {{ router.loopback_ip }} {{ router.loopback_mask }}
+          - no shutdown
+          - interface GigabitEthernet1
+          - description {{ router.descripcion_wan }}
+          - banner motd c {{ router.banner }} c
+          - ntp server {{ router.ntp_server }}
