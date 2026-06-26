@@ -1,0 +1,9 @@
+==============================================================================
+Genie Diff Analysis between baseline_005D-05 and snapshot_final_005D-05
+==============================================================================
++ interface Loopback10
+  + description: Enlace-WAN-Antofagasta
+  + ip address: 10.5.5.1 255.255.255.0
++ routing
+  + active route: 10.5.5.0/24 via Loopback10 status: connected
+==============================================================================
