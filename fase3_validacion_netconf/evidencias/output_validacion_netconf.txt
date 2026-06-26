@@ -1,0 +1,14 @@
+Script: validacion_netconf.py
+Fecha/Hora: 2026-06-26 19:28:00
+VM Hostname: labvm
+
+[OK] Sesión NETCONF exitosa. XML crudo guardado.
+
+=== EVALUACIÓN DE COMPLIANCE NETCONF ===
+[OK] Hostname verificado: RTR-ENERSOL
+[OK] IP Loopback10 verificado: 10.5.5.1
+[OK] Mascara Loopback10 verificado: 255.255.255.0
+[OK] Descripcion WAN verificado: Enlace-WAN-Antofagasta
+[OK] Servidor NTP verificado: 1.1.1.1
+---------------------------------------
+RESULTADO GLOBAL: CONFORME
