@@ -8,7 +8,7 @@ cliente:
   hostname: "RTR-ENERSOL"
 
 router:
-  ip: "192.168.56.101"
+  ip: "192.168.56.254"
   usuario: "cisco"
   password: "cisco123!"
   loopback_id: 10

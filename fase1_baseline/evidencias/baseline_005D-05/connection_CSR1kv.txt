@@ -1,0 +1,6 @@
+[2026-06-26 17:16:17,928] +++ CSR1kv logfile evidencias/baseline_005D-05/connection_CSR1kv.txt +++
+[2026-06-26 17:16:17,928] +++ Unicon plugin iosxe +++
+ssh: connect to host 192.168.56.101 port 22: Connection refused
+
+[2026-06-26 17:16:17,955] +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.101 22, id: 140025824913872 +++
+[2026-06-26 17:16:17,955] connection to CSR1kv
